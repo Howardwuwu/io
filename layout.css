@@ -1,0 +1,68 @@
+.frame{
+    display: flex;
+    justify-content: center;
+}
+.Left{
+    flex: none;
+    width: 50%;
+    /*background-color: blue;*/
+}
+.Right{
+    display:flex;
+    flex: auto;
+    /*background-color: red;*/
+    justify-content: flex-end;
+}
+
+.item{
+    flex:none;
+    width: 200px;
+}
+
+.welcome{
+    margin-left: none;
+    margin-right: none;
+    text-align: center;
+    background: linear-gradient(to bottom right , #c5d5fa, #c3dc99);
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    color: darkslategrey;
+    box-sizing: border-box;
+}
+
+.item_illustration{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    border: 0; /* 如果有邊框，取消邊框 */
+}
+
+.Align-Picture{
+    display: flex;
+    height: 300px;
+    height: auto
+}
+
+.content{
+    flex:none;
+    width:50%;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.picture{
+    flex: none;
+    width:50%;
+}
+
+.two_pic{
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
+
